@@ -1,92 +1,152 @@
-/* 🔥 Professional IT Manager Hacker Theme 🔥 */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=VT323&display=swap');
 
-/* Background: Cyber-Hacker Design */
 body {
-    background: linear-gradient(90deg, #050505, #111111);
-    color: #ff3131;
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
 }
 
-/* Glowing Header */
-h1 {
-    font-size: 3.8rem;
-    text-shadow: 0 0 15px #ff3131, 0 0 30px #ff3131;
-    text-transform: uppercase;
-    animation: glow 2s infinite alternate;
+header {
+  background-color: #111;
+  padding: 2rem;
+  text-align: center;
 }
 
-/* Animated Subtitle */
-.subtitle {
-    font-size: 2rem;
-    font-family: 'VT323', monospace;
-    color: #ff3131;
-    text-shadow: 0 0 10px #ff3131, 0 0 30px #ff3131;
-    animation: slide 4s infinite alternate;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-/* Executive Hacker Console */
-.console-box {
-    background-color: rgba(10, 10, 10, 0.9);
-    padding: 25px;
-    border: 3px solid #ff3131;
-    font-family: 'VT323', monospace;
-    color: #ff3131;
-    box-shadow: 0 0 15px #ff3131;
-    width: 80%;
-    margin: auto;
+header p {
+  margin: 0.5rem 0 0;
+  color: #00ffff;
 }
 
-/* Typing Effect */
-.typing {
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid #ff3131;
-    animation: typing 3s steps(40, end), blink-cursor 1s infinite;
+section {
+  padding: 2rem;
 }
 
-/* Modern Cyber Buttons */
-.command-btn {
-    background: transparent;
-    border: 3px solid #ff3131;
-    color: #ff3131;
-    font-size: 1.4rem;
-    padding: 12px 30px;
-    cursor: pointer;
-    transition: 0.4s;
-    box-shadow: 0 0 10px #ff3131, 0 0 20px #ff3131;
+section h2 {
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
+  padding-bottom: 0.5rem;
 }
 
-.command-btn:hover {
-    background: #ff3131;
-    color: #0a0a0a;
-    box-shadow: 0 0 15px #ff3131, 0 0 30px #ff3131;
-    transform: scale(1.1);
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
 }
 
-/* Glowing Text Animation */
-@keyframes glow {
-    0% { text-shadow: 0 0 15px #ff3131;}
-    100% { text-shadow: 0 0 30px #ff3131;}
+a {
+  color: #00ffff;
+  text-decoration: none;
 }
 
-/* Sliding Text Effect */
-@keyframes slide {
-    0% { transform: translateX(-40px);}
-    100% { transform: translateX(40px);}
+a:hover {
+  text-decoration: underline;
 }
 
-/* Console Typing Effect */
-@keyframes typing {
-    from { width: 0;}
-    to { width: 100%;}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: #ffffff;
 }
 
-@keyframes blink-cursor {
-    50% { border-right-color: transparent;}
+#resume {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-left: 4px solid #00ffff;
 }
+
+#resume h3 {
+  margin-top: 1rem;
+  color: #ff66cc;
+}
+
+#resume p, #resume li {
+  margin-left: 1rem;
+}
+
+#mulaa-bot {
+  background: #111;
+  padding: 2rem;
+  border-left: 5px solid #00bfff;
+  margin-top: 2rem;
+  color: #f0f0f0;
+}
+
+#mulaa-bot h2 {
+  color: #00bfff;
+}
+
+#mulaa-bot a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+#payment {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-left: 4px solid #ff6600;
+  color: #ffffff;
+}
+
+#payment h2 {
+  color: #ff6600;
+  margin-bottom: 1rem;
+}
+
+#payment p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+#supporters {
+  background-color: #141414;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-left: 4px solid #33cc33;
+  color: #ffffff;
+}
+
+#supporters h2 {
+  color: #33cc33;
+  margin-bottom: 1rem;
+}
+
+#supporters ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+}
+
+#supporters li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  border-top: 2px solid #00ffff;
+}
+
+footer a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
 
